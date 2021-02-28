@@ -1,5 +1,5 @@
 import discord
-
+import os
 from discord.ext import commands
 
 app = commands.Bot(command_prefix='+')
