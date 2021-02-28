@@ -1,4 +1,6 @@
 import discord
+import os
+
 from discord.ext import commands
 
 app = commands.Bot(command_prefix='+')
@@ -15,5 +17,5 @@ async def 신고(ctx, *, text):
     await app.get_channel(813741144093360158).send(f'신고자:{ctx.author.mention}/신고내용:{text}')
 
 
-
-app.run('')
+access_token = os.environ['BOT_TOKEN']
+app.run(access_token)
