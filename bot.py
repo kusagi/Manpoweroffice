@@ -16,4 +16,4 @@ async def 신고(ctx, *, text):
 
 
 
-app.run('ODEzNzQyMDAzMjkxODE1OTY2.YDTuTA.4f7FdGRbjahM2apGjj2Unub3RDU')
+app.run('')
